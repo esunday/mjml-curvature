@@ -1,0 +1,21 @@
+<mj-raw>
+<!-- Caption Text (Reference Info) -->
+</mj-raw>
+
+<mj-section css-class="reference-info" padding="0">
+
+  <mj-column>
+
+    <mj-text css-class="reference-text">
+    <p>1. Koger, Gregory. “Filibustering and Parties in the Modern State.” Congress Reconsidered, edited by Lawrence C. Dodd and Bruce I. Oppenheimer, 10th ed., CQ Press, 2013, pp. 221-236. Google Books, books.google.com/books id=b7gkLlSEeqwC&lpg=PP1&dq=10th%20edition&pg=PR6#v=onepage&q=10 th%20edition&f=false.</p>
+    </mj-text>
+    
+    <mj-divider border-width="1px" border-style="solid" border-color="#919698" />
+
+  </mj-column>
+  
+</mj-section>
+
+<mj-raw>
+<!-- Caption Text (Reference Info) -->
+</mj-raw>

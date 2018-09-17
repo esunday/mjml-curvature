@@ -1,0 +1,40 @@
+<mj-raw>
+<!-- Product Feature 2 -->
+</mj-raw>
+
+<mj-section css-class="product-featured-1">
+
+  <mj-column>
+
+    <mj-divider border-width="1px" border-style="solid" border-color="#c2ccd0" />
+
+  </mj-column>
+
+</mj-section>
+
+<mj-section css-class="product-featured-1">
+
+  <mj-column css-class="product-featured-image">
+  
+  <mj-image css-class="product-image" src="https://i.imgur.com/jc43kmb.png" alt="Curvature Logo" align="left" href="#"></mj-image>
+  
+  </column>
+
+  <mj-column css-class="product-info">
+
+    <mj-text>
+    <h3>Product Name</h3>
+    <p>Praesent at nulla elementum, interdum metus a, cursus erat. Nunc vitae orci convallis, scelerisque enim non, ornare ligula. Quisque purus velit, pellentesque sit amet ultrices rhoncus, semper vel massa. </p>
+    </mj-text>
+
+    <mj-button href="#" align="center" css-class="button-dark">
+      <span>Buy Now ></span>
+    </mj-button>
+
+  </mj-column>
+
+</mj-section>
+
+<mj-raw>
+<!-- End Product Feature 2 -->
+</mj-raw>

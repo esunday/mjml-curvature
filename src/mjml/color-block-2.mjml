@@ -1,0 +1,47 @@
+<mj-raw>
+<!-- Color Blocks 2 -->
+</mj-raw>
+
+<mj-wrapper>
+
+  <mj-section css-class="image-color-blocks" vertical-align="middle">
+
+  <mj-column css-class="color-block" vertical-align="middle">
+      <mj-text>
+      <h3>Webinar</h3>
+      <p>We will be hosting a webinar on our maintenance and service options on August 25. Sign up today! </p>
+      </mj-text>
+      <mj-button href="#" align="left" css-class="button-dark button-small">
+      <span>Sign Up ></span>
+    </mj-button>
+    </mj-column>
+
+    <mj-column css-class="image-block">
+    <mj-image css-class="block-img" src="https://i.imgur.com/psIhrwg.png" alt="Curvature Webinar" align="center" href="#"></mj-image>
+    </mj-column>
+
+  </mj-section>
+
+<mj-section css-class="image-color-blocks" vertical-align="middle">
+
+<mj-column css-class="image-block">
+    <mj-image css-class="block-img" src="https://i.imgur.com/TvqqgLz.png" alt="Curvature CIO Summit" align="center" href="#"></mj-image>
+    </mj-column>
+
+  <mj-column css-class="color-block" vertical-align="middle">
+      <mj-text>
+      <h3>CIO Summit</h3>
+      <p>Curvature is at Hong Kong #CIOSummit today! Visit our booth for a quick chat with our IT experts!</p>
+      </mj-text>
+      <mj-button href="#" align="left" css-class="button-dark button-small">
+      <span>Contact ></span>
+    </mj-button>
+    </mj-column>
+
+  </mj-section>
+
+</mj-wrapper>
+
+<mj-raw>
+<!-- End Color Blocks 2 -->
+</mj-raw>

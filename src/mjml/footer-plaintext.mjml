@@ -1,0 +1,35 @@
+<mj-raw>
+<!-- Footer Plain Text -->
+</mj-raw>
+
+<mj-section css-class="footer-plaintext" color="#383F52">
+
+  <mj-column width="100%" padding-bottom="35px">
+
+    <mj-text align="center">
+      <p><b>Singapore:</b> +65 6411 7388  |  <b>India:</b> +65 6411 7388  |  <b>Japan:</b> +65 6411 7388</br> 
+      <b>Aarhus -</b> Niels Bohrs vej 15, Stilling, Skanderborg, DK 8660, Denmark<br>
+      <b>London -</b> 83-84 George Street, Richmond-upon-Thames, London TW9 1HE, UK</p>
+    </mj-text>
+
+    <mj-text align="center">
+    <span>2810 Coliseum Centre Drive, Suite 600, Charlotte, NC 28217</span>
+    </mj-text>
+
+    <mj-text align="center">
+    <span>Curvature © 2018. All Rights Reserved.</span>
+    </mj-text>
+
+    <mj-text align="center">
+      <a href="">Unsubscribe</a>
+      <span>  |  </span>
+      <a href="">Privacy Policy</a>
+    </mj-text>
+
+  </mj-column>
+
+</mj-section>
+
+<mj-raw>
+<!-- End Footer Plain Text -->
+</mj-raw>

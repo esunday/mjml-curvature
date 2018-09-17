@@ -1,0 +1,29 @@
+<mj-raw>
+<!-- Plain Text Template -->
+</mj-raw>
+
+<mj-section css-class="plaintext-template">
+
+  <mj-column 
+  padding-top="35px">
+
+    <mj-text>
+        <p>Hello Customer,</p>
+
+        <p>Curvature is transforming how companies manage, maintain and upgrade equipment and support for multi-vendor, multinational networks and data centers. At a time of competing IT priorities, companies need to be nimble, efficient and smart with their spend. Putting budget toward technology upgrades that give you a significant increase in performance while maintaining assets that are working is a winning strategy for your IT infrastructure and your bottom line. </p>
+
+        <p>A strategic partner for more than 15,000 organizations globally, we specialize in delivering 24X7 global technical support, advanced hardware replacement, and complete lifecycle management of networking and data center equipment under one global contract from locations in the Americas, Europe, and Asia.</p>
+        
+        <p>Sincerely,<br>
+        Curvature Team Member</p>
+    </mj-text>
+
+    <mj-image css-class="plaintext-logo" width="200px" src="https://i.imgur.com/6OHfGI7.png" alt="Curvature Logo" align="left" href="#"></mj-image>
+
+  </mj-column>
+
+</mj-section>
+
+<mj-raw>
+<!-- End Plain Text Template -->
+</mj-raw>

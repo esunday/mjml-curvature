@@ -1,0 +1,19 @@
+<mj-raw>
+<!-- Footer Top -->
+</mj-raw>
+<mj-section>
+
+  <mj-column width="100%" padding-bottom="35px">
+
+    <mj-text align="center" css-class="footer-info">
+      <p><b style="color: #232834;">Singapore:</b> <span style="color: #FC4C02;">+65 6411 7388</span>  |  <b style="color: #232834;">India:</b> <span style="color: #FC4C02;">+65 6411 7388</span>  |  <b style="color: #232834;">Japan:</b> <span style="color: #FC4C02;">+65 6411 7388</span></p> 
+      <p><b>Aarhus -</b> Niels Bohrs vej 15, Stilling, Skanderborg, DK 8660, Denmark<br>
+      <b>London -</b> 83-84 George Street, Richmond-upon-Thames, London TW9 1HE, UK</p>
+    </mj-text>
+<mj-image align="center" mj-class="cert-img" width="350" href="#" src="https://i.imgur.com/ECPSTNS.jpg" />
+  </mj-column>
+
+</mj-section>
+<mj-raw>
+<!-- End Footer Top -->
+</mj-raw>

@@ -1,0 +1,24 @@
+<mj-raw>
+<!-- Hero -->
+</mj-raw>
+
+<mj-section css-class="hero" full-width="full-width">
+
+  <mj-column css-class="hero-content">
+
+    <mj-text align="center" css-class="hero-text">
+    <h1>We provide quality, cost effective alternatives to traditional options.</h1>
+    <p>Discover how you can save up to 75%.</p>
+    </mj-text>
+
+    <mj-button href="#" align="center" css-class="button-light">
+      <span>Learn More ></span>
+    </mj-button>
+    
+  </mj-column>
+
+</mj-section>
+
+<mj-raw>
+<!-- End Hero -->
+</mj-raw>

@@ -1,0 +1,23 @@
+<mj-raw>
+<!-- Header With Menu -->
+</mj-raw>
+
+<mj-section css-class="header-main" full-width="full-width">
+
+  <mj-column css-class="logo-image" vertical-align="middle" width="200px">
+    <mj-image css-class="main-logo" padding="0" width="165" src="https://i.imgur.com/hihRjgt.png" alt="Curvature Logo" align="left" href="#"></mj-image>
+  </mj-column>
+
+  <mj-column vertical-align="middle" css-class="main-menu">
+    <mj-text css-class="menu-primary" align="right">
+      <a href="#" style="">Products</a>
+      <a href="#" style="">Maintenance</a>
+      <a href="#" style="">Services</a>
+    </mj-text>
+  </mj-column>
+
+</mj-section>
+
+<mj-raw>
+<!-- End Header With Menu -->
+</mj-raw>

@@ -1,0 +1,17 @@
+<mj-raw>
+<!-- Content Divider -->
+</mj-raw>
+
+<mj-section css-class="content-divider">
+
+  <mj-column>
+
+    <mj-divider border-width="1px" border-style="solid" border-color="#919698" />
+
+  </mj-column>
+
+</mj-section>
+
+<mj-raw>
+<!-- End Content Divider -->
+</mj-raw>

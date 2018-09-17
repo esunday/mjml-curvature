@@ -1,146 +1,402 @@
 <mjml>
 
   <mj-head>
+  
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i"></mj-font>
+
+    <mj-font name="Open Sans" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i"></mj-font>
+
     <mj-attributes>
+
       <mj-all 
-        font-family="Helvetica, Arial" 
-        color="#6c879d"
+        font-family="Open Sans, Helvetica, Arial" 
+        color="#919698"
         font-weight="300"
       />
+    
       <mj-text 
-        font-size="14px"
-        line-height="22px"
-        />
-        <mj-class 
-        name="blue-head" 
-        color="#002c4a"
+        font-size="16px"
+        line-height="24px"
       />
-      <mj-class 
-        name="button-style"
-        padding="20px 35px" 
-        border-radius="6px"
-        padding-bottom="10px" 
-        padding-top="0"
-        font-weight="bold"
-        line-height="150%"
+
+      <mj-button
+        css-class="button-dark"
       />
-      <mj-class
-        name="button-blue"
-        background-color="#0098dc" 
-        color="white"
-      />
-      <mj-class
-        name="button-white"
-        background-color="transparent" 
-        color="white"
-        border="2px solid white"
-      />
-      <mj-class
-        name="button-wide"
-        width="192px"
-      />
-      <mj-text 
-        css-class="single-question" 
-        padding="0 15px" 
-        font-size="14px"
-      />
-      <mj-class 
-        name="font-test" 
-        font-size="30px" 
-        line-height="36px"
-      />
-      <mj-class
-        name="feature-head"
-        align="left"
-        color="#002c4a"
-        font-size="20px" 
-        line-height="26px"
-        padding="30px 35px 0px"
-      />
-      <mj-class
-        name="feature-text"
-        align="left"
-        padding="0px 35px"
-      />
-      <mj-class 
-      name="post-img"
-      border="none" 
-      width="150px" 
-      padding="0"
-        />
-         <mj-class
-      name="post-head"
-      align="left"
-      color="#002c4a"
-      font-size="18px" 
-      line-height="26px"
-      margin-top="15px"
-      />
-       <mj-class
-      name="posts-feed"
-      />
-        <mj-class
-        name="single-post-img"
-        width="25%" 
-        vertical-align="middle"
-      />
-        <mj-class
-        name="single-post"
-        width="74%" 
-        padding-left="15px" 
-        vertical-align="middle"
-      />
-      <mj-class 
-      name="social-image" 
-      width="16px" 
-      padding="15px 0"
-      />
+    
     </mj-attributes>
+
     <mj-style inline="inline">
-        h1, h2, h3, h4, h5 {
-          margin-top: 0;
-          margin-bottom: 0;
+
+    /* GENERAL */
+
+      body {
+        max-width: 640px;
+        border: 1px solid #D0D3D4;
+        margin: 0 auto;
+      }
+
+      .image-single img {
+        max-width: 400px;
+        margin: 0 auto;
+      }
+
+    /* HEADINGS */
+
+      h1, h2, h3, h4, h5 {
+        line-height: 1.5em;
+        font-weight: 600;
+        color: #232834;
+      }
+
+      h1 {
+        font-size: 30px;
+      }
+
+      h2 {
+        font-size: 24px;
+      }
+
+      h3 {
+        font-size: 20px;
+      }
+
+      h4 {
+        font-size: 16px;
+      }
+
+      h5 {
+        font-size: 13px;
+        letter-spacing: 2.2px;
+        text-transform: uppercase;
+      }
+
+      h6 {
+        font-size: 12px;
+        font-weight: normal;
+        color: #919698;
+      }
+
+      .image-blurb h3 {
+        text-align: center;
+      }
+
+    /* PARAGRAPHS AND LINKS */
+
+      .featured-text p {
+        font-size: 18px;
+        line-height: 27px;
+        font-weight: 600;
+        color: #232834;
+      }
+
+      .reference-text p {
+        line-height: 19px;
+        font-size: 12px;
+      }
+
+      .large-text p {
+        line-height: 28px;
+        font-size: 18px;
+      }
+
+
+      .featured-text a {
+        height: 21px;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 1.75;
+        letter-spacing: 2px;
+        color: #fc4c02;
+        text-transform: uppercase;
+      }
+
+      .plaintext-template p {
+        margin-bottom: 1.35em;
+      }
+
+    /* HEADER AND FOOTER */
+
+      .header-main {
+        border-bottom: 1px solid #D0D3D4;
+      }
+
+      .menu-primary a {
+        padding-left: 5px;
+        padding-right: 5px;
+        text-align: right;
+        font-size: 13px;
+        text-decoration: none;
+        letter-spacing: 1.2px;
+        font-weight: 600;
+        color: #232834;
+      }
+
+      .menu-primary {
+        text-align: right;
+        text-transform: uppercase;
+        padding: 0 !important;
+        width: 100%;
+      }
+
+      .footer-links a {
+        color: white;
+      }
+
+      .image-social td {
+        width: 30px;
+        height: 30px;
+        padding: 3px !important;
+      }
+
+      .social-icons {
+        padding: 15px 0;
+      }
+
+    /* BUTTONS */
+
+      .button-light td, .button-dark td {
+        width: 163px;
+        height: 19px;
+        font-family: "Roboto, Helvetica, Arial";
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 600;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 2px;
+        text-align: center;
+        border-radius: 20px !important;
+        border: 1px solid #FC4C02 !important;
+      }
+
+      .button-small table {
+        max-width: 215px;
+      }
+
+      .button-light a span {
+        color: #ffffff;
+        text-transform: uppercase;
+      }
+
+      .button-dark a span {
+        color: #FC4C02;
+        text-transform: uppercase;
+      }
+
+      .button-light a, .button-dark a {
+        background: transparent !important;
+      }
+
+      .button-dark td {
+        color: #FC4C02;
+        background-color: #ffffff;
+        border: 1px solid #FC4C02;
+      }
+
+      .button-light td {
+        color: #ffffff;
+        background-color: #FC4C02;
+      }
+
+    /* PLAIN TEXT */
+
+      td.plaintext-logo {
+        padding-top: 0 !important;
+      }
+
+      .footer-plaintext p, .footer-plaintext span, .footer-plaintext a {
+        color: #383F52;
+      }
+
+    /* FULL WIDTH */
+
+      td.full-width-image {
+        padding: 0 !important;
+        width: 100% !important;
+        max-width: 100% !important;
+      }
+
+      td.full-width-image td {
+        width: 100% !important;
+        max-width: 100% !important;
+      }
+
+      /* td.full-width-image.negative-margin img {
+        margin-top: -20px;
+      } */
+
+      body > div > div.full-width-1-column-gray > table > tbody > tr > td {
+        padding-top: 0 !important;
+      }
+
+      .full-width-1-column td.full-width-content {
+        padding: 50px 25px 60px !important;
+      }
+
+      .full-width-1-column-gray td.full-width-content {
+        padding: 25px !important;
+      }
+
+      .full-width-1-column-gray td.button-light {
+        padding-bottom: 50px !important;
+      }
+
+      .full-width-2-column td.full-width-content {
+        padding: 15px 25px !important;
+      }
+
+    /* HERO */
+
+      .hero-content, .cta .cta-content {
+        padding: 1em 0 3em 0;
+      }
+
+    /* BLURBS */
+
+      .blurb-content img, .blurb-content p, .button-dark.blurb-content td {
+        max-width: 250px !important;
+        width: 100% !important;
+        margin: 0 auto;
+      }
+
+      td.button-dark.blurb-content.button-small table {
+        width: 100%;
+        max-width: 215px;
+      }
+
+      .image-blurb td.button-dark.blurb-content.button-small {
+        padding-bottom: 25px !important;
+      }
+
+      td.blurb-icon img {
+        max-width: 90px;
+        margin: 0 auto;
+      }
+
+      .text-blurb h5 {
+        color: #919698;
+      }
+
+    /* COLOR AND IMAGE BLOCKS */
+
+      body > div > div > table > tbody > tr > td > div > table > tbody > tr > td, body > div > div:nth-child(7) > table > tbody > tr > td {
+        padding: 0 !important;
+      }
+
+      .image-block td {
+        padding: 0 !important;
+      }
+
+      .image-block table {
+        margin: 0 !important;
+        width: 100%;
+      }
+
+      .color-block {
+        padding: 20px 0px 15px;
+      }
+
+      .mj-column-per-50.outlook-group-fix.product-info {
+
+      }
+
+    </mj-style>
+
+    <mj-style>
+
+    /* MOBILE */
+
+      @media all and (max-width: 480px) {
+
+        h1 {
+          font-size: 24px !important;
         }
-        .special-heading {
-          font-size: 13px;
-          font-weight: 600;
-          letter-spacing: 5px;
-          text-transform: uppercase;
-          display: inline-block;
+
+        .main-logo table {
+          margin: 0 auto 10px;
+          float: none;
         }
-        .post-preview__title {
-          font-size:20px; 
+
+        td.menu-primary div {
+          text-align: center !important;
+        }
+
+        .featured-text p {
+          font-size: 16px;
           line-height: 24px;
         }
-        .post-link p {
-          margin: 0;
+
+        .color-block {
+          padding-bottom: 40px !important;
         }
-    </mj-style>
+
+        .image-social {
+          max-width: 45px !important;
+        }
+
+        .social-icons {
+          text-align: center !important;
+        }
+
+        .color-block, .text-blurb {
+          max-width: 300px !important;
+          margin: 0 auto;
+          text-align: center !important;
+        }
+
+        .featured-text p {
+          max-width: 250px !important;
+          margin: 0 auto;
+          text-align: center !important;
+        }
+
+
+      }
+
+      </mj-style>
+
   </mj-head>
 
-  <mj-body
-    width="640px"
-  >
+  <mj-body width="640px" >
 
-    <mj-include path="./header.mjml" />
+    <mj-include path="./header-with-menu.mjml" />
 
-    <mj-include path="./hero.mjml" />
+    <mj-include path="./hero-1.mjml" />
 
-    <mj-include path="./feature-1.mjml" />
+    <mj-include path="./1-col-full-width.mjml" />
 
-    <mj-include path="./feature-2.mjml" />
+    <mj-include path="./1-col-full-width-gray.mjml" />
 
-    <mj-include path="./seasonal-facts.mjml" />
+    <mj-include path="./2-col-image-blurb.mjml" />
 
-    <mj-include path="./posts.mjml" />
+    <mj-include path="./cta-1.mjml" />
 
-    <mj-include path="./weekly-promo.mjml" />
+    <mj-include path="./color-block-2.mjml" />
 
-    <mj-include path="./employee-spotlight.mjml" />
+    <mj-include path="./2-col-text-blurb.mjml" />
 
-    <mj-include path="./cta.mjml" />
+    <mj-include path="./3-col-blurb.mjml" />
 
-    <mj-include path="./footer.mjml" />
+    <mj-include path="./3-col-icon-blurb.mjml" />
+
+    <mj-include path="./color-block-1.mjml" />
+
+    <mj-include path="./caption-1.mjml" />
+
+    <mj-include path="./footer-top.mjml" />
+
+    <mj-include path="./footer-main.mjml" />
+
+    <?php <mj-include path="./single-image.mjml" />?>
+
+    <?php <mj-include path="./product-feature-1.mjml" />?>
+
+    <?php<mj-include path="./product-feature-2.mjml" />?>
+
+    <?php <mj-include path="./content-divider-1.mjml" /> ?>
+
+    <?php <mj-include path="./footer-plaintext.mjml" /> ?>
 
   </mj-body>
 

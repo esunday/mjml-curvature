@@ -1,0 +1,22 @@
+<mj-raw>
+<!-- Full-width 1 Column -->
+</mj-raw>
+
+<mj-section css-class="full-width-1-column" padding="0">
+
+  <mj-column css-class="col-full-width">
+
+    <mj-image css-class="full-width-image" src="https://i.imgur.com/hsEt1L2.png" alt="Curvature Placeholder Image" align="center" href="#"></mj-image>
+
+    <mj-text align="center" css-class="full-width-content">
+      <h2>The Benefits of Shopping at Curvature</h2>
+      <p>Praesent at nulla elementum, interdum metus a, cursus erat. Nunc vitae orci convallis, scelerisque enim non, ornare ligula. Quisque purus velit, pellentesque sit amet ultrices rhoncus, semper vel massa.</p>
+    </mj-text>
+    
+  </mj-column>
+
+</mj-section>
+
+<mj-raw>
+<!-- End Full-width 1 Column -->
+</mj-raw>

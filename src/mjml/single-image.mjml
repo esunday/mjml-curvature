@@ -1,0 +1,17 @@
+<mj-raw>
+<!-- Single Image -->
+</mj-raw>
+
+<mj-section css-class="single-image">
+
+  <mj-column padding-top="35px">
+
+    <mj-image css-class="image-single" src="https://i.imgur.com/PDC8qYP.png" alt="Curvature Featured Image" align="center" href="#"></mj-image>
+
+  </mj-column>
+
+</mj-section>
+
+<mj-raw>
+<!-- End Single Image -->
+</mj-raw>

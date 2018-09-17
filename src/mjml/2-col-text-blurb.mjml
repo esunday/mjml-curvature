@@ -1,0 +1,43 @@
+<mj-raw>
+<!-- 2 Column Text Blurb -->
+</mj-raw>
+
+<mj-wrapper>
+
+  <mj-section>
+
+    <mj-column css-class="text-blurb">
+
+      <mj-text>
+      <h5>SubTitle</h5>
+      <h3>Webinar</h3>
+      <p>We will be hosting a webinar on our maintenance and service options on August 25. Sign up today! </p>
+      </mj-text>
+    
+      <mj-button href="#" align="left" css-class="button-dark button-small">
+      <span>Learn More ></span>
+    </mj-button>
+    
+    </mj-column>
+
+    <mj-column css-class="text-blurb">
+    
+      <mj-text>
+      <h5>SubTitle</h5>
+      <h3>Webinar</h3>
+      <p>We will be hosting a webinar on our maintenance and service options on August 25. Sign up today! </p>
+      </mj-text>
+    
+      <mj-button href="#" align="left" css-class="button-dark button-small">
+      <span>Learn More ></span>
+    </mj-button>
+    
+    </mj-column>
+
+  </mj-section>
+
+</mj-wrapper>
+
+<mj-raw>
+<!-- End 2 Column Text Blurb -->
+</mj-raw>

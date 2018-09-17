@@ -1,11 +1,17 @@
  <mj-raw>
-<!-- Posts Start -->
+<!-- Posts -->
 </mj-raw>
+
 <mj-wrapper mj-class="posts-section">
+
 <mj-include path="./post-content.mjml"/>
+
 <mj-include path="./post-content.mjml"/>
+
 <mj-include path="./post-content.mjml"/>
+
 </mj-wrapper>
+
     <mj-raw>
-<!-- Posts End -->
+<!-- End Posts -->
 </mj-raw>

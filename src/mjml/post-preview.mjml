@@ -1,3 +1,7 @@
+    <mj-raw>
+<!-- Post Preview -->
+</mj-raw>
+    
     <mj-column 
       background-color="white"
       padding="0 0 15px 0"
@@ -25,3 +29,7 @@
           <span>Get Recipe</span>
         </mj-button>
     </mj-column>
+
+    <mj-raw>
+<!-- End Post Preview -->
+</mj-raw>

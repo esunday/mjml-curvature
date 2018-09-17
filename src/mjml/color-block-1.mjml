@@ -1,0 +1,47 @@
+<mj-raw>
+<!-- Color Blocks 1 -->
+</mj-raw>
+
+<mj-wrapper>
+
+  <mj-section css-class="image-color-blocks" background-color="#EEEEEE" vertical-align="middle">
+
+  <mj-column css-class="color-block" vertical-align="middle">
+      <mj-text>
+      <h3>Get Started</h3>
+      <p>Not sure where to start? Contact us to get expert advice and dedicated  account management today.</p>
+      </mj-text>
+      <mj-button href="#" align="left" css-class="button-light button-small">
+      <span>Learn More ></span>
+    </mj-button>
+    </mj-column>
+
+    <mj-column css-class="image-block">
+    <mj-image css-class="block-img" src="https://i.imgur.com/gO84ARK.png" alt="Curvature Transceivers" align="center" href="#"></mj-image>
+    </mj-column>
+
+  </mj-section>
+
+<mj-section css-class="image-color-blocks" background-color="#383F52" vertical-align="middle">
+
+<mj-column css-class="image-block">
+    <mj-image css-class="block-img" src="https://i.imgur.com/m0WjN04.png" alt="Curvature Transceivers" align="center" href="#"></mj-image>
+    </mj-column>
+
+  <mj-column css-class="color-block" vertical-align="middle">
+      <mj-text color="#FFFFFF">
+      <h3 style="color: #FFFFFF;">Get Started</h3>
+      <p>Not sure where to start? Contact us to get expert advice and dedicated  account management today.</p>
+      </mj-text>
+      <mj-button href="#" align="left" css-class="button-light button-small">
+      <span>Learn More ></span>
+    </mj-button>
+    </mj-column>
+
+  </mj-section>
+
+</mj-wrapper>
+
+<mj-raw>
+<!-- End Color Blocks 1 -->
+</mj-raw>

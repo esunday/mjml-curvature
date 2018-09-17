@@ -1,0 +1,23 @@
+<mj-raw>
+<!-- CTA -->
+</mj-raw>
+
+<mj-section css-class="cta" background-color="#EEEEEE">
+
+  <mj-column css-class="cta-content">
+
+    <mj-text align="center" css-class="featured-text">
+    <h2>Contact Sales to save by bundling your new equipment with pre-owned.</h2>
+    </mj-text>
+
+    <mj-button href="#" align="center" css-class="button-light">
+      <span>Contact ></span>
+    </mj-button>
+    
+  </mj-column>
+
+</mj-section>
+
+<mj-raw>
+<!-- End CTA -->
+</mj-raw>

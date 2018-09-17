@@ -1,0 +1,92 @@
+<mj-raw>
+<!-- 2 Column Image Blurb -->
+</mj-raw>
+
+<mj-wrapper>
+
+<mj-section css-class="full-width-2-column">
+
+  <mj-column>
+
+    <mj-text align="center" css-class="full-width-content">
+      <h2>The Benefits of Shopping at Curvature</h2>
+      <p>Praesent at nulla elementum, interdum metus a, cursus erat. Nunc vitae orci convallis, scelerisque enim non, ornare ligula. Quisque purus velit, pellentesque sit amet ultrices rhoncus, semper vel massa.</p>
+    </mj-text>
+    
+  </mj-column>
+
+</mj-section>
+
+  <mj-section>
+
+    <mj-column css-class="image-blurb">
+
+    <mj-image css-class="blurb-img blurb-content" src="https://i.imgur.com/WkYQEqz.png" alt="Curvature Transceivers" align="center" href="#"></mj-image>
+
+      <mj-text css-class="blurb-content">
+      <h3>Transceivers</h3>
+      <p>Praesent at nulla elementum, interdum metus a, cursus erat. Nunc vitae orci convallis, scelerisque enim non, ornare ligula. Quisque purus velit, pellentes sit amet ultrices rhoncus, semper vel. </p>
+      </mj-text>
+
+      <mj-button href="#" align="center" css-class="button-dark blurb-content button-small">
+      <span>Learn More ></span>
+    </mj-button>
+
+    </mj-column>
+
+    <mj-column css-class="image-blurb">
+
+    <mj-image css-class="blurb-img blurb-content" src="https://i.imgur.com/gvieK7o.png" alt="Curvature Memory" align="center" href="#"></mj-image>
+
+      <mj-text css-class="blurb-content">
+      <h3>Memory</h3>
+      <p>Praesent at nulla elementum, interdum metus a, cursus erat. Nunc vitae orci convallis, scelerisque enim non, ornare ligula. Quisque purus velit, pellentes sit amet ultrices rhoncus, semper vel. </p>
+      </mj-text>
+
+      <mj-button href="#" align="center" css-class="button-dark blurb-content button-small">
+      <span>Learn More ></span>
+    </mj-button>
+
+    </mj-column>
+
+  </mj-section>
+
+  <mj-section>
+
+    <mj-column css-class="image-blurb">
+
+    <mj-image css-class="blurb-img blurb-content" src="https://i.imgur.com/hVp0PFN.png" alt="Curvature Drives" align="center" href="#"></mj-image>
+
+      <mj-text css-class="blurb-content">
+      <h3>Drives</h3>
+      <p>Praesent at nulla elementum, interdum metus a, cursus erat. Nunc vitae orci convallis, scelerisque enim non, ornare ligula. Quisque purus velit, pellentes sit amet ultrices rhoncus, semper vel. </p>
+      </mj-text>
+
+      <mj-button href="#" align="center" css-class="button-dark blurb-content button-small">
+      <span>Learn More ></span>
+    </mj-button>
+
+    </mj-column>
+
+    <mj-column css-class="image-blurb">
+
+    <mj-image css-class="blurb-img blurb-content" src="https://i.imgur.com/MRRqV4l.png" alt="Curvature Accessories" align="center" href="#" ></mj-image>
+
+      <mj-text css-class="blurb-content">
+      <h3>Accessories</h3>
+      <p>Praesent at nulla elementum, interdum metus a, cursus erat. Nunc vitae orci convallis, scelerisque enim non, ornare ligula. Quisque purus velit, pellentes sit amet ultrices rhoncus, semper vel. </p>
+      </mj-text>
+
+      <mj-button href="#" align="center" css-class="button-dark blurb-content button-small">
+      <span>Learn More ></span>
+    </mj-button>
+    
+    </mj-column>
+
+  </mj-section>
+
+</mj-wrapper>
+
+<mj-raw>
+<!-- End 2 Column Image Blurb -->
+</mj-raw>
